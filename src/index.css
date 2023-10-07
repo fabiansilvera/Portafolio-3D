@@ -126,6 +126,14 @@
   transform: translateZ(0);
 }
 
+.blend-mode {
+  background: rgba(0,0,0,0.6) url("/src/assets/herobg.jpg");
+  background-blend-mode: darken;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
 @keyframes mulShdSpin {
   0%,
   100% {
